@@ -1,4 +1,8 @@
----
+logger:
+  default: info
+  logs:
+    custom_components.hacs: debug
+    aiogithubapi: debug---
 id: logs
 title: Logs
 description: "Logs"
